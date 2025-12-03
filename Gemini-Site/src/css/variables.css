@@ -1,0 +1,54 @@
+:root {
+    /* Colors - Dark Theme (Default) */
+    --primary: #FF6B6B;
+    /* Vibrant Coral */
+    --primary-hover: #FF5252;
+    --secondary: #4ECDC4;
+    /* Teal */
+
+    --bg-body: #121212;
+    --bg-surface: #1E1E1E;
+    --bg-surface-glass: rgba(30, 30, 30, 0.7);
+    --bg-elevated: #2D2D2D;
+
+    --text-main: #FFFFFF;
+    --text-muted: #A0A0A0;
+    --text-inverse: #121212;
+
+    --border-color: rgba(255, 255, 255, 0.1);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 4rem;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-full: 9999px;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}
+
+[data-theme="light"] {
+    --bg-body: #F8F9FA;
+    --bg-surface: #FFFFFF;
+    --bg-surface-glass: rgba(255, 255, 255, 0.8);
+    --bg-elevated: #F1F3F5;
+
+    --text-main: #212529;
+    --text-muted: #6C757D;
+    --text-inverse: #FFFFFF;
+
+    --border-color: rgba(0, 0, 0, 0.08);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
